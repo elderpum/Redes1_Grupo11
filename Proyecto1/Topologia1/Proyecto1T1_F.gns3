@@ -764,6 +764,11 @@
                 "properties": {
                     "interfaces": [
                         {
+                            "name": "Conexi\u00f3n de red Bluetooth",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
                             "name": "Wi-Fi",
                             "special": true,
                             "type": "ethernet"
@@ -774,12 +779,7 @@
                             "type": "ethernet"
                         },
                         {
-                            "name": "Bluetooth Network Connection",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "Local Area Connection",
+                            "name": "vEthernet (Default Switch)",
                             "special": true,
                             "type": "ethernet"
                         },
@@ -796,6 +796,16 @@
                         {
                             "name": "OpenVPN Data Channel Offload",
                             "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Conexi\u00f3n de \u00e1rea local",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "vEthernet (WSL)",
+                            "special": true,
                             "type": "ethernet"
                         }
                     ],
@@ -843,6 +853,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.36",
+    "version": "2.2.37",
     "zoom": 100
 }
